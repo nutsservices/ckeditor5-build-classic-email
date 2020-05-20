@@ -30,6 +30,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
+import CustomButtonElement from '@budgetthuis/ckeditor5-custom-button-element-plugin/src/custombuttonelement';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -58,7 +59,8 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	CustomButtonElement
 ];
 
 // Editor configuration.
@@ -70,6 +72,7 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'link',
+			'customButtonElement',
 			'bulletedList',
 			'numberedList',
 			'|',
