@@ -8,6 +8,8 @@ import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classicedi
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Typing from '@ckeditor/ckeditor5-typing/src/typing';
+import Input from '@ckeditor/ckeditor5-typing/src/input';
+import Delete from '@ckeditor/ckeditor5-typing/src/delete';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
@@ -62,7 +64,9 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	CustomButtonElement,
-	Typing
+	Typing,
+	Input,
+	Delete
 ];
 
 // Editor configuration.
