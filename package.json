@@ -1,6 +1,6 @@
 {
   "name": "@budgetthuis/ckeditor5-build-classic-email",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "The classic editor build of CKEditor 5 with some extra features for an e-mail editor.",
   "keywords": [
     "ckeditor5-build",
@@ -25,7 +25,7 @@
     "build"
   ],
   "devDependencies": {
-    "@budgetthuis/ckeditor5-custom-button-element-plugin": "^1.2.2",
+    "@budgetthuis/ckeditor5-custom-button-element-plugin": "^1.2.3",
     "@ckeditor/ckeditor5-adapter-ckfinder": "^18.0.0",
     "@ckeditor/ckeditor5-autoformat": "^18.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^18.0.0",
@@ -58,7 +58,7 @@
     "stylelint": "^11.1.1",
     "stylelint-config-ckeditor5": "^1.0.0",
     "terser-webpack-plugin": "^2.2.1",
-    "webpack": "^4.43.0",
+    "webpack": "^5.10.0",
     "webpack-cli": "^3.3.11"
   },
   "engines": {
