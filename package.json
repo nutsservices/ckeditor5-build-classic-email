@@ -1,6 +1,6 @@
 {
   "name": "@budgetthuis/ckeditor5-build-classic-email",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "The classic editor build of CKEditor 5 with some extra features for an e-mail editor.",
   "keywords": [
     "ckeditor5-build",
@@ -25,7 +25,7 @@
     "build"
   ],
   "devDependencies": {
-    "@budgetthuis/ckeditor5-custom-button-element-plugin": "^1.2.1",
+    "@budgetthuis/ckeditor5-custom-button-element-plugin": "^1.2.2",
     "@ckeditor/ckeditor5-adapter-ckfinder": "^18.0.0",
     "@ckeditor/ckeditor5-autoformat": "^18.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^18.0.0",
